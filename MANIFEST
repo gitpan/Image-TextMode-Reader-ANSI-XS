@@ -14,6 +14,8 @@ MANIFEST			This list of files
 META.yml
 README
 t/ascii.t
+t/bugs-set_pos.t
+t/bugs/set-pos.ans
 t/conformance.t
 t/data/ascii-2lines.txt
 t/data/ascii-81cols.txt
