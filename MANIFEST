@@ -20,8 +20,12 @@ t/conformance.t
 t/data/ascii-2lines.txt
 t/data/ascii-81cols.txt
 t/data/ascii.txt
-t/data/clearline.ans
-t/data/clearscreen.ans
+t/data/clearline-0.ans
+t/data/clearline-1.ans
+t/data/clearline-2.ans
+t/data/clearscreen-0.ans
+t/data/clearscreen-1.ans
+t/data/clearscreen-2.ans
 t/data/move.ans
 t/data/saverestore.ans
 t/data/tab.ans

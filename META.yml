@@ -20,9 +20,9 @@ no_index:
     - t
     - xt
 requires:
-  Image::TextMode: 0.05
+  Image::TextMode: 0.14
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bricas/image-textmode-reader-ansi-xs
-version: 0.06
+version: 0.07
