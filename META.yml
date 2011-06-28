@@ -25,4 +25,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bricas/image-textmode-reader-ansi-xs
-version: 0.07
+version: 0.08

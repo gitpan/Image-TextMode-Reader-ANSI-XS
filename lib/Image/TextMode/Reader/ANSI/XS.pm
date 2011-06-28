@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use XSLoader;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 use base 'Image::TextMode::Reader';
 
@@ -44,15 +44,15 @@ same name.
 
 =head1 BENCHMARK
 
-    Image::TextMode version 0.12
-    Image::TextMode::Reader::ANSI::XS version 0.05
+    Image::TextMode version 0.15
+    Image::TextMode::Reader::ANSI::XS version 0.08
     Filesize: 75501 bytes
     Benchmark: timing 50 iterations of PP, XS...
-            PP: 43 wallclock secs (42.25 usr +  0.04 sys = 42.29 CPU) @  1.18/s (n=50)
-            XS:  2 wallclock secs ( 2.11 usr +  0.03 sys =  2.14 CPU) @ 23.36/s (n=50)
+            PP: 42 wallclock secs (40.99 usr +  0.11 sys = 41.10 CPU) @  1.22/s (n=50)
+            XS:  2 wallclock secs ( 2.03 usr +  0.05 sys =  2.08 CPU) @ 24.04/s (n=50)
          Rate    PP    XS
-    PP 1.18/s    --  -95%
-    XS 23.4/s 1876%    --
+    PP 1.22/s    --  -95%
+    XS 24.0/s 1876%    --
 
 =head1 AUTHOR
 
