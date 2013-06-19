@@ -14,12 +14,14 @@ MANIFEST			This list of files
 META.yml
 README
 t/ascii.t
+t/blink.t
 t/bugs-set_pos.t
 t/bugs/set-pos.ans
 t/conformance.t
 t/data/ascii-2lines.txt
 t/data/ascii-81cols.txt
 t/data/ascii.txt
+t/data/blink.ans
 t/data/clearline-0.ans
 t/data/clearline-1.ans
 t/data/clearline-2.ans
@@ -29,9 +31,11 @@ t/data/clearscreen-2.ans
 t/data/move.ans
 t/data/saverestore.ans
 t/data/tab.ans
+t/data/test1-rgb.ans
 t/data/test1.ans
 t/data/test2.ans
 t/data/test3.ans
+t/read-rgb.t
 t/read.t
 t/use.t
 XS.xs
